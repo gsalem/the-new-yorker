@@ -1,0 +1,105 @@
+body{
+  padding-top: 200px;
+}
+header{
+ text-align: center;
+ background-color: white;
+ position: fixed;
+ z-index:1000;
+ top: 0;
+ left: 0;
+ right: 0;
+}
+            /* H ELEMENTS */
+h1, h2, h3, h4, h5{
+  text-transform: uppercase;
+  font-family: 'Buda', cursive;
+}
+.the-title{
+  text-transform: uppercase;
+  font-family: 'Buda', cursive;
+  text-align: center;
+  margin-bottom: -20px;
+  font-size: 20px;
+}
+h1{
+  font-size: 3.5em;
+  text-align: center;
+
+}
+h2{
+  font-size: 2.5em;
+}
+h3{
+  font-size: 1.5em;
+  font-family: 'Lora', serif;
+}
+h4{
+  font-size: 1.2em;
+}
+h5{
+  font-size: 0.9em;
+  color: red;
+  font-size: 13px;
+}
+h6{
+  font-family: 'Lora', serif;
+  font-size: 12px;
+  font-weight: 900;
+}
+p{
+  font-family: 'Lora', serif;
+}
+            /* BORDERS */
+.border-header{
+  border: 1px solid;
+  border-color: rgb(229, 229, 229);
+  margin-top: -9px;
+}
+.border_right{
+  margin-top: 6px;
+  border-right: 1px solid;
+  border-color: rgb(229, 229, 229);
+}
+.border_left{
+
+  margin-top: 8px;
+  border-left: 1px solid;
+  border-color: rgb(229, 229, 229);
+}
+.border{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-bottom: 1px solid;
+  border-color: rgb(229, 229, 229);
+}
+            /* NAV */
+nav{
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+nav a{
+  font-family: 'Nunito', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+nav ul{
+  list-style-type: none;
+  text-align: center;
+}
+nav li{
+  display: inline;
+}
+nav a:link, nav a:visited{
+  color: black;
+  border-radius: 3px;
+  padding: 5px;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  margin: 3px;
+}
+nav a:hover{
+  text-decoration: none;
+  border-bottom: 2px solid black;
+}
